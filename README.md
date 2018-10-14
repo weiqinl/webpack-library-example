@@ -32,7 +32,7 @@ npm publish
 
 ```
 <script src="//unpkg.com/lodash"></script>
-<script src="//unpkg.com/webpack-number-word"></script>
+<script src="//unpkg.com/webpack-library-example"></script>
 ```
 
 2. 使用 Usage In Web
@@ -48,14 +48,14 @@ numberWord.wordToNum('five')
 1. 安装 Using npm:
 
 ```
-npm install webpack-number-word --save-dev
+npm install webpack-library-example --save-dev
 ```
 
 2. 使用 Usage In Node.js
 
 ```
 require('lodash')
-var webpackNumber =  require('webpack-number-word')
+var webpackNumber =  require('webpack-library-example')
 
 webpackNumber.numToWord(1)
 webpackNumber.wordToNum('two')
