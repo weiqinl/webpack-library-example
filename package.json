@@ -1,6 +1,6 @@
 {
   "name": "webpack-library-example",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "webpack library example 使用webpack打包自己写的一个JavaScript类库",
   "main": "./src/index.js",
   "scripts": {
