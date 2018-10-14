@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>webpack打包类库</title>
+</head>
+<body>
+  引入自定义模块，输出请查看控制台。
+  <div id="root"></div>
+  <script src="https://unpkg.com/lodash"></script>
+  <script src="../../dist/number-word.js"></script>
+  <script>
+    console.log('weiqinl')
+    console.log(numberWord.version)
+    console.log(numberWord.numToWord(6))
+    console.log(numberWord.wordToNum('Five'))
+    document.querySelector('#root').innerHTML = `6的英文为：${numberWord.numToWord(6)}`
+  </script>
+</body>
+</html>

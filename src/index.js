@@ -1,4 +1,5 @@
 import numRef from './ref.json'
+import packageConfig from '../package.json'
 
 const numberWord = () => {
   const numToWord = (num) => {
@@ -16,6 +17,7 @@ const numberWord = () => {
   }
 
   return {
+    version: packageConfig.version,
     numToWord,
     wordToNum
   }
