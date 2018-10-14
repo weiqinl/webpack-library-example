@@ -1,4 +1,4 @@
-var webpacklibraryExample = require('../../dist/number-word')
+var webpacklibraryExample = require('../../dist/webpack-library-example')
 
 console.log(webpacklibraryExample.numToWord(4))
 console.log(webpacklibraryExample.wordToNum('FIve'))
