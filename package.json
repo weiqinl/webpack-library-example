@@ -1,0 +1,34 @@
+{
+  "name": "webpack-library-example",
+  "version": "0.1.0",
+  "description": "webpack library example 使用webpack打包自己写的一个JavaScript类库",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiqinl/webpack-library-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "number",
+    "word"
+  ],
+  "author": "weiqinl <772863869@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiqinl/webpack-library-example/issues"
+  },
+  "homepage": "https://github.com/weiqinl/webpack-library-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
