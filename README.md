@@ -1,6 +1,9 @@
 # webpack-library-example
 webpack library example 使用webpack打包自己写的一个JavaScript类库并上传至NPM
 
+可以结合[此文章](https://www.cnblogs.com/weiqinl/p/9786966.html)阅读: https://www.cnblogs.com/weiqinl/p/9786966.html
+
+
 ## 简介
 
 此 library 主要有两个方法（只针对 0-10 之间的数，word 不区分大小写）：  

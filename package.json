@@ -1,7 +1,7 @@
 {
   "name": "webpack-library-example",
   "version": "0.1.4",
-  "description": "webpack library example 使用webpack打包自己写的一个JavaScript类库",
+  "description": "webpack library example 使用webpack打包自己写的一个JavaScript类库，并上传至NPM",
   "main": "./dist/number-word.js",
   "scripts": {
     "build": "webpack",
