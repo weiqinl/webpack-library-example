@@ -1,5 +1,9 @@
 # webpack-library-example
-webpack library example 使用webpack打包自己写的一个JavaScript类库并上传至NPM
+webpack library example 使用webpack打包自己写的一个JavaScript类库并上传至NPM。
+
+
+NPM发布看到的包:https://www.npmjs.com/package/webpack-library-example
+
 
 可以结合[此文章](https://www.cnblogs.com/weiqinl/p/9786966.html)阅读: https://www.cnblogs.com/weiqinl/p/9786966.html
 
